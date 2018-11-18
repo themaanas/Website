@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Page not found &ndash; MAANAS MANOJ</title><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="stylesheet" id="ignis-bootstrap-css" href="contents/ui/theme/css/bootstrap/bootstrap.min.css" type="text/css" media="all"><link rel="stylesheet" id="dslc-fontawesome-css" href="contents/lib/live-composer-page-builder/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="dslc-main-css-css" href="contents/lib/live-composer-page-builder/css/frontend/main.css" type="text/css" media="all"><link rel="stylesheet" id="dslc-modules-css-css" href="contents/lib/live-composer-page-builder/css/frontend/modules.css" type="text/css" media="all"><link rel="stylesheet" id="dslc-plugins-css-css" href="contents/lib/live-composer-page-builder/css/frontend/plugins.css" type="text/css" media="all"><!--[if IE]>
+<link rel='stylesheet' id='dslc-css-ie-css'  href='contents/lib/live-composer-page-builder/css/ie.css' type='text/css' media='all' />
+<![endif]--><link rel="stylesheet" id="bootstrap-css" href="contents/lib/siliconfolio/framework/css/bootstrap.min.css" type="text/css" media="all"><link rel="stylesheet" id="Siliconfolio-css" href="contents/lib/siliconfolio/framework/css/style.css" type="text/css" media="all"><link rel="stylesheet" id="ignis-style-css" href="contents/ui/theme/style.css" type="text/css" media="all"><style id="ignis-style-inline-css" type="text/css">
+body {font-family:Montserrat}
+h1, h2, h3, h4, h5, h6, .site-title {font-family:Quicksand}
+.site-title { font-size:36px; }
+.site-description { font-size:19px; }
+body { font-size:18px; }
+.main-navigation li { font-size:13px; }
+.entry-header .entry-title { font-size:22px; }
+.header-text h1, .header-text h2, .header-text .entry-title { font-size:56px; }
+.widget-area .widget-title { font-size:18px; }
+.home .header-text h2 { font-size:95px; }
+@media only screen and (max-width: 1199px) {
+					.home .header-text h2 { font-size: 56px;}
+				}
+@media only screen and (max-width: 1199px) {
+					.home .header-text h2 { font-size: 36px;}
+					.header-text h1, .header-text h2, .header-text .entry-title { font-size: 36px;}
+				}
+@media only screen and (max-width: 991px) {
+					body { font-size: 16px;}
+				}
+@media only screen and (max-width: 767px) {
+					.home .header-text h2 { font-size: 22px;}
+					.header-text h1, .header-text h2, .header-text .entry-title { font-size: 22px;}
+					.site-title { font-size: 26px;}
+				}
+@media only screen and (max-width: 400px) {
+					.entry-header .entry-title { font-size: 18px;}
+				}
+.woocommerce a.remove,.main-navigation a:hover,a,a:hover,.color-primary { color:#ff6b7e}
+.woocommerce input.button.alt,.woocommerce input.button.alt:hover,.woocommerce span.onsale,.portfolio-thumbnail::after,.social-navigation a:hover,.post-template-post_nosidebar_featured .ignis-hero-area::after,.jetpack-portfolio-template-post_nosidebar_featured .ignis-hero-area::after,.main-navigation .menu-icon a:hover,.woocommerce div.product form.cart .button,.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,.button,button,input[type="button"],input[type="reset"],input[type="submit"],.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,.woocommerce div.product form.cart .button:hover,.button:hover,button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover { background-color:#ff6b7e}
+.typed-cursor,.typed-element,.portfolio-entry-meta a:hover,.cat-links a:hover,.woocommerce-message::before { color:#37c9df}
+.woocommerce-message,.portfolio-entry-meta a:hover,.cat-links a:hover,.portfolio-entry-meta a,.cat-links a { border-color:#37c9df}
+.portfolio-entry-meta a,.cat-links a { background-color:#37c9df}
+body, .widget-area .widget, .widget-area .widget a, .site-footer, .site-footer a { color:#4a4a4a}
+.site-title a,.site-title a:hover { color:#4c4c4c}
+.site-description { color:#b2b5bb}
+.home .header-text h2 { color:#ffffff}
+.header-text p { color:#686d73}
+.header-text h1, .header-text h2, .header-text .entry-title { color:#ffffff}
+.main-navigation a { color:#4a4a4a}
+.btn-menu { color:#4c4c4c}
+#mainnav-mobi { background-color:#202529}
+#mainnav-mobi a { color:#ffffff}
+
+</style><link rel="stylesheet" id="ignis-fonts-css" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%7CQuicksand%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic&amp;subset=latin%2Clatin-ext%2Ccyrillic" type="text/css" media="all"><link rel="stylesheet" id="ignis-icons-css" href="contents/ui/theme/icons/css/fontello.css" type="text/css" media="all"><script type="text/javascript" src="inc/js/jquery/jquery.js"></script><script type="text/javascript" src="inc/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script><script type="text/javascript" src="inc/js/mediaelement/mediaelement-and-player.min.js"></script><script type="text/javascript" src="inc/js/mediaelement/mediaelement-migrate.min.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/inc\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script><script type="text/javascript" src="contents/lib/live-composer-page-builder/js/frontend/plugins.js"></script><!-- start Simple Custom CSS and JS --><style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+</style><!-- end Simple Custom CSS and JS --><!-- start Simple Custom CSS and JS --><style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+body.dslc-page .content {max-width: none;}</style><!-- end Simple Custom CSS and JS --><style type="text/css">.dslc-modules-section-wrapper, .dslca-add-modules-section { width : 1110px; } .dslc-modules-section:not(.dslc-full) { padding-left: 4%;  padding-right: 4%; } .dslc-modules-section { background-image:disabled;background-repeat:repeat;background-position:left top;background-attachment:scroll;background-size:auto;border-width:0px;border-style:solid;margin-left:0%;margin-right:0%;margin-bottom:0px;padding-bottom:80px;padding-top:80px;padding-left:0%;padding-right:0%; }</style><style type="text/css" id="wp-custom-css">
+			.site-footer {
+	display: none;
+}
+.ignis-hero-area {
+	background-color: #4d4d4d;
+	margin: 0;
+}		</style><style id="stylist">
+/*
+	The following CSS generated by Stylist Plugin.
+	http://stylistwp.com
+*/
+
+</style></head><body class="error404 hfeed sticky-header">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#contentindex.html">Skip to content</a>
+
+		<header id="masthead" class="site-header clearfix" role="banner"><div class="site-branding col-md-4 col-sm-6 col-xs-12">
+								<div class="branding-inner">
+									<p class="site-title"><a href="index.html" rel="home">MAANAS MANOJ</a></p>
+								</div>
+			</div><!-- .site-branding -->
+			<div class="btn-menu col-md-8 col-sm-6 col-xs-12"><i class="icon-menu"></i></div>
+			<nav id="site-navigation" class="main-navigation col-md-8" role="navigation"><div id="primary-menu" class="menu"><ul><li class="page_item page-item-4"><a href="index.html">About Me</a></li>
+<li class="page_item page-item-6"><a href="contact-us/index.html">Contact Me</a></li>
+<li class="page_item page-item-63"><a href="projects/index.html">Projects</a></li>
+</ul></div>
+				<div class="btn-close-menu">&times;</div>
+			</nav><!-- #site-navigation --></header><!-- #masthead --><div class="ignis-hero-area ">
+				<div class="header-text clearfix">
+			
+			<h1 class="entry-title">404</h1>
+				</div>
+	</div>
+	
+	<div id="content" class="site-content clearfix">
+		<div class="container">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main"><section class="error-404 not-found"><header class="page-header"><h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+				</header><!-- .page-header --><div class="page-content">
+					<p>It looks like nothing was found at this location. Maybe try searching below?</p>
+
+					<form role="search" method="get" class="search-form" action="">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s"></label>
+				<input type="submit" class="search-submit" value="Search"></form>
+				</div><!-- .page-content -->
+			</section><!-- .error-404 --></main><!-- #main --></div><!-- #primary -->
+
+		</div><!-- .container -->
+	</div><!-- #content -->
+
+
+	<footer id="colophon" class="site-footer clearfix" role="contentinfo"><div class="site-info">
+			<a href="https://wordpress.org/index.html" rel="nofollow">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: <a href="https://athemes.com/theme/ignisindex.html" rel="nofollow">Ignis</a> by aThemes.		</div><!-- .site-info -->
+	 
+	</footer><!-- #colophon --></div><!-- #page -->
+
+<script type="text/javascript" src="inc/js/mediaelement/wp-mediaelement.min.js"></script><script type="text/javascript" src="inc/js/imagesloaded.min.js"></script><script type="text/javascript" src="inc/js/masonry.min.js"></script><script type="text/javascript" src="inc/js/jquery/jquery.masonry.min.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var DSLCAjax = {"ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script><script type="text/javascript" src="contents/lib/live-composer-page-builder/js/frontend/main.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var st_sf_theme_plugin = {"theme_url":"http:\/\/\/contents\/lib\/siliconfolio\/","ajax_url":"http:\/\/\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script><script type="text/javascript" src="contents/lib/siliconfolio/framework/js/custom_plugin.js"></script><script type="text/javascript" src="contents/lib/siliconfolio/framework/js/jquery.waitforimages.js"></script><script type="text/javascript" src="contents/lib/siliconfolio/framework/js/isotope.pkgd.min.js"></script><script type="text/javascript" src="contents/lib/siliconfolio/framework/js/imagesloaded.js"></script><script type="text/javascript" src="contents/ui/theme/js/navigation.js"></script><script type="text/javascript" src="contents/ui/theme/js/scripts.js"></script><script type="text/javascript" src="contents/ui/theme/js/main.min.js"></script><script type="text/javascript" src="contents/ui/theme/js/skip-link-focus-fix.js"></script></body></html><!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+Served from:  @ 2018-11-15 20:55:18 by W3 Total Cache
+-->

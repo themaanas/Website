@@ -1,0 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>.dslc-in-viewport-check {
+transform: none !important;
+opacity: 1 !important;
+}
+.dslc-image-container .dslc-image,
+.dslc-image-container .dslc-image a {
+width: 100% !important;
+}</p></body></html>

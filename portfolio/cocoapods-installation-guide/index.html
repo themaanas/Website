@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+<title>CocoaPods Installation Guide &#8211; MAANAS MANOJ</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="MAANAS MANOJ &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MAANAS MANOJ &raquo; Comments Feed" href="/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="MAANAS MANOJ &raquo; CocoaPods Installation Guide Comments Feed" href="/portfolio/cocoapods-installation-guide/feed/" />
+<link rel='stylesheet' id='ignis-bootstrap-css'  href='/wp-content/themes/ignis/css/bootstrap/bootstrap.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='dslc-fontawesome-css'  href='/wp-content/plugins/live-composer-page-builder/css/font-awesome.css?ver=1.3.18' type='text/css' media='all' />
+<link rel='stylesheet' id='dslc-main-css-css'  href='/wp-content/plugins/live-composer-page-builder/css/frontend/main.css?ver=1.3.18' type='text/css' media='all' />
+<link rel='stylesheet' id='dslc-modules-css-css'  href='/wp-content/plugins/live-composer-page-builder/css/frontend/modules.css?ver=1.3.18' type='text/css' media='all' />
+<link rel='stylesheet' id='dslc-plugins-css-css'  href='/wp-content/plugins/live-composer-page-builder/css/frontend/plugins.css?ver=1.3.18' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='dslc-css-ie-css'  href='http://maanas.me/wp-content/plugins/live-composer-page-builder/css/ie.css?ver=1.3.18' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='bootstrap-css'  href='/wp-content/plugins/siliconfolio/framework/css/bootstrap.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='Siliconfolio-css'  href='/wp-content/plugins/siliconfolio/framework/css/style.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='ignis-style-css'  href='/wp-content/themes/ignis/style.css?ver=4.9.8' type='text/css' media='all' />
+<style id='ignis-style-inline-css' type='text/css'>
+.site-title { font-size:36px; }
+.site-description { font-size:19px; }
+body { font-size:18px; }
+.main-navigation li { font-size:13px; }
+.entry-header .entry-title { font-size:22px; }
+.header-text h1, .header-text h2, .header-text .entry-title { font-size:56px; }
+.widget-area .widget-title { font-size:18px; }
+.home .header-text h2 { font-size:95px; }
+@media only screen and (max-width: 1199px) {
+					.home .header-text h2 { font-size: 56px;}
+				}
+@media only screen and (max-width: 1199px) {
+					.home .header-text h2 { font-size: 36px;}
+					.header-text h1, .header-text h2, .header-text .entry-title { font-size: 36px;}
+				}
+@media only screen and (max-width: 991px) {
+					body { font-size: 16px;}
+				}
+@media only screen and (max-width: 767px) {
+					.home .header-text h2 { font-size: 22px;}
+					.header-text h1, .header-text h2, .header-text .entry-title { font-size: 22px;}
+					.site-title { font-size: 26px;}
+				}
+@media only screen and (max-width: 400px) {
+					.entry-header .entry-title { font-size: 18px;}
+				}
+
+	            .post-navigation .nav-previous { background-image: url(/wp-content/uploads/2017/08/barcode-1.png); }
+
+	            .post-navigation .nav-next { background-image: url(/wp-content/uploads/2017/12/lampThumb.png); }
+	        .woocommerce a.remove,.main-navigation a:hover,a,a:hover,.color-primary { color:#ff6b7e}
+.woocommerce input.button.alt,.woocommerce input.button.alt:hover,.woocommerce span.onsale,.portfolio-thumbnail::after,.social-navigation a:hover,.post-template-post_nosidebar_featured .ignis-hero-area::after,.jetpack-portfolio-template-post_nosidebar_featured .ignis-hero-area::after,.main-navigation .menu-icon a:hover,.woocommerce div.product form.cart .button,.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,.button,button,input[type="button"],input[type="reset"],input[type="submit"],.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,.woocommerce div.product form.cart .button:hover,.button:hover,button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover { background-color:#ff6b7e}
+.typed-cursor,.typed-element,.portfolio-entry-meta a:hover,.cat-links a:hover,.woocommerce-message::before { color:#37c9df}
+.woocommerce-message,.portfolio-entry-meta a:hover,.cat-links a:hover,.portfolio-entry-meta a,.cat-links a { border-color:#37c9df}
+.portfolio-entry-meta a,.cat-links a { background-color:#37c9df}
+body, .widget-area .widget, .widget-area .widget a, .site-footer, .site-footer a { color:#4a4a4a}
+.site-title a,.site-title a:hover { color:#4c4c4c}
+.site-description { color:#b2b5bb}
+.home .header-text h2 { color:#ffffff}
+.header-text p { color:#686d73}
+.header-text h1, .header-text h2, .header-text .entry-title { color:#ffffff}
+.main-navigation a { color:#4a4a4a}
+.btn-menu { color:#4c4c4c}
+#mainnav-mobi { background-color:#202529}
+#mainnav-mobi a { color:#ffffff}
+
+</style>
+<link rel='stylesheet' id='ignis-fonts-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%7CQuicksand%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext%2Ccyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='ignis-icons-css'  href='/wp-content/themes/ignis/icons/css/fontello.css?ver=4.9.8' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=4.9.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/live-composer-page-builder/js/frontend/plugins.js?ver=1.3.18'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel='prev' title='Barcode Recognition with Swift 3' href='/portfolio/barcode-recognition-with-swift-3/' />
+<link rel='next' title='Raspberry Pi WiFi Controlled Lamp' href='/portfolio/raspberry-pi-wifi-controlled-lamp/' />
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="/portfolio/cocoapods-installation-guide/" />
+<link rel='shortlink' href='/?p=2625' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fportfolio%2Fcocoapods-installation-guide%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fportfolio%2Fcocoapods-installation-guide%2F&#038;format=xml" />
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */
+
+</style>
+<!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */
+
+body.dslc-page .content {max-width: none;}</style>
+<!-- end Simple Custom CSS and JS -->
+<style type="text/css">.dslc-modules-section-wrapper, .dslca-add-modules-section { width : 1110px; } .dslc-modules-section:not(.dslc-full) { padding-left: 4%;  padding-right: 4%; } .dslc-modules-section { background-image:disabled;background-repeat:repeat;background-position:left top;background-attachment:scroll;background-size:auto;border-width:0px;border-style:solid;margin-left:0%;margin-right:0%;margin-bottom:0px;padding-bottom:80px;padding-top:80px;padding-left:0%;padding-right:0%; }</style>		<style type="text/css" id="wp-custom-css">
+			.site-footer {
+	display: none;
+}
+.ignis-hero-area {
+	background-color: #4d4d4d;
+	margin: 0;
+}		</style>
+	<style id="stylist">
+/*
+	The following CSS generated by Stylist Plugin.
+	http://stylistwp.com
+*/
+
+</style></head>
+
+<body class="portfolio-template-default single single-portfolio postid-2625 sticky-header">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<header id="masthead" class="site-header clearfix" role="banner">
+			<div class="site-branding col-md-4 col-sm-6 col-xs-12">
+								<div class="branding-inner">
+									<p class="site-title"><a href="/" rel="home">Maanas Manoj</a></p>
+								</div>
+			</div><!-- .site-branding -->
+			<div class="btn-menu col-md-8 col-sm-6 col-xs-12"><i class="icon-menu"></i></div>
+			<nav id="site-navigation" class="main-navigation col-md-8" role="navigation">
+				<div id="primary-menu" class="menu"><ul>
+<li class="page_item page-item-4"><a href="/">About Me</a></li>
+<li class="page_item page-item-6"><a href="/contact-us/">Contact Me</a></li>
+<li class="page_item page-item-63"><a href="/projects/">Projects</a></li>
+</ul></div>
+				<div class="btn-close-menu">&times;</div>
+			</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+
+
+	<div style="background: #ff5c4d"class="ignis-hero-area">
+				<div class="header-text clearfix">
+					<h1 class="entry-title">CocoaPods Installation Guide</h1>				</div>
+	</div>
+
+	<div id="content" class="site-content clearfix">
+		<div class="container"><div class="this_page oi_page_holder">
+	<div class="oi_sinle_portfolio_holder">
+                <div class="oi_portfolio_page_holder">
+			<div id="dslc-theme-content"><div id="dslc-theme-content-inner"><p>Here&#8217;s a quick guide to installing CocoaPods, a popular framework integrator. This is a <strong>must have</strong> for anyone looking to improve their swift applications, because of the vast number of developer-created frameworks available for integrating into your projects.</p>
+<ol>
+<li>You&#8217;re going to need root access for this method, so make sure you sign in as an admin. Go into Terminal, and run the command <code class="highlight shell">sudo gem install cocoapods</code>. This installs CocoaPods onto your Mac.</li>
+<li>To use CocoaPods, navigate to your Xcode project directory (folder), and type <code>pod init</code>. This creates your PodFile, where you can add as many pods as you want.</li>
+<li>Under where it says <code># Pods for (your project)</code>, paste the pods that you want to install.</li>
+<li>Run the command <code>pod install</code>. This will install all of your pods.</li>
+<li>After the installation is complete, make sure to open the <code>.xcworkspace</code> file when you want to work on your application. This file will contain all of your frameworks.</li>
+<li>If Xcode gives an error about how pods can&#8217;t be found, just clean the project (Command-Shift-K) and then build (Command-B). This should clear all errors.</li>
+</ol>
+<p>Cocoapods is a great tool to use, especially because more complex apps will rely on frameworks to perform many tasks.</p>
+</div></div><div class="siliconthemes"><div style="height:7px; line-height: 3.7em !important; overflow: hidden;">/ Free Portfolio Plugin for WordPress by <a href="https://siliconthemes.com/">Silicon Themes</a>.</div></div>        </div>
+
+		    </div>
+</div>
+		</div><!-- .container -->
+	</div><!-- #content -->
+
+
+	<footer id="colophon" class="site-footer clearfix" role="contentinfo">
+				<div class="site-info">
+			<a href="https://wordpress.org/" rel="nofollow">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: <a href="https://athemes.com/theme/ignis" rel="nofollow">Ignis</a> by aThemes.		</div><!-- .site-info -->
+
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var DSLCAjax = {"ajaxurl":"http:\/\/maanas.me\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/live-composer-page-builder/js/frontend/main.js?ver=1.3.18'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var st_sf_theme_plugin = {"theme_url":"http:\/\/maanas.me\/wp-content\/plugins\/siliconfolio\/","ajax_url":"http:\/\/maanas.me\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/siliconfolio/framework/js/custom_plugin.js?ver=1.0.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/siliconfolio/framework/js/jquery.waitforimages.js?ver=1.0.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/siliconfolio/framework/js/isotope.pkgd.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='/wp-content/plugins/siliconfolio/framework/js/imagesloaded.js?ver=1.0.0'></script>
+<script type='text/javascript' src='/wp-content/themes/ignis/js/navigation.js?ver=20151215'></script>
+<script type='text/javascript' src='/wp-content/themes/ignis/js/scripts.js?ver=4.9.8'></script>
+<script type='text/javascript' src='/wp-content/themes/ignis/js/main.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='/wp-content/themes/ignis/js/skip-link-focus-fix.js?ver=20151215'></script>
+
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+Served from: maanas.me @ 2018-11-15 21:03:28 by W3 Total Cache
+-->

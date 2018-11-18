@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Barcode Recognition with Swift 3 &ndash; MAANAS MANOJ</title><link rel="dns-prefetch" href="//fonts.googleapis.com"><link rel="stylesheet" id="ignis-bootstrap-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/ui/theme/css/bootstrap/bootstrap.min.css" type="text/css" media="all"><link rel="stylesheet" id="dslc-fontawesome-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/live-composer-page-builder/css/font-awesome.css" type="text/css" media="all"><link rel="stylesheet" id="dslc-main-css-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/live-composer-page-builder/css/frontend/main.css" type="text/css" media="all"><link rel="stylesheet" id="dslc-modules-css-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/live-composer-page-builder/css/frontend/modules.css" type="text/css" media="all"><link rel="stylesheet" id="dslc-plugins-css-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/live-composer-page-builder/css/frontend/plugins.css" type="text/css" media="all"><!--[if IE]>
+<link rel='stylesheet' id='dslc-css-ie-css'  href='contents/lib/live-composer-page-builder/css/ie.css' type='text/css' media='all' />
+<![endif]--><link rel="stylesheet" id="bootstrap-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/siliconfolio/framework/css/bootstrap.min.css" type="text/css" media="all"><link rel="stylesheet" id="Siliconfolio-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/siliconfolio/framework/css/style.css" type="text/css" media="all"><link rel="stylesheet" id="ignis-style-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/ui/theme/style.css" type="text/css" media="all"><style id="ignis-style-inline-css" type="text/css">
+body {font-family:Montserrat}
+h1, h2, h3, h4, h5, h6, .site-title {font-family:Quicksand}
+.site-title { font-size:36px; }
+.site-description { font-size:19px; }
+body { font-size:18px; }
+.main-navigation li { font-size:13px; }
+.entry-header .entry-title { font-size:22px; }
+.header-text h1, .header-text h2, .header-text .entry-title { font-size:56px; }
+.widget-area .widget-title { font-size:18px; }
+.home .header-text h2 { font-size:95px; }
+@media only screen and (max-width: 1199px) {
+					.home .header-text h2 { font-size: 56px;}
+				}
+@media only screen and (max-width: 1199px) {
+					.home .header-text h2 { font-size: 36px;}
+					.header-text h1, .header-text h2, .header-text .entry-title { font-size: 36px;}
+				}
+@media only screen and (max-width: 991px) {
+					body { font-size: 16px;}
+				}
+@media only screen and (max-width: 767px) {
+					.home .header-text h2 { font-size: 22px;}
+					.header-text h1, .header-text h2, .header-text .entry-title { font-size: 22px;}
+					.site-title { font-size: 26px;}
+				}
+@media only screen and (max-width: 400px) {
+					.entry-header .entry-title { font-size: 18px;}
+				}
+
+	            .post-navigation .nav-next { background-image: url(/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/data/2017/08/cocoapods-1.png); }
+	        .woocommerce a.remove,.main-navigation a:hover,a,a:hover,.color-primary { color:#ff6b7e}
+.woocommerce input.button.alt,.woocommerce input.button.alt:hover,.woocommerce span.onsale,.portfolio-thumbnail::after,.social-navigation a:hover,.post-template-post_nosidebar_featured .ignis-hero-area::after,.jetpack-portfolio-template-post_nosidebar_featured .ignis-hero-area::after,.main-navigation .menu-icon a:hover,.woocommerce div.product form.cart .button,.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,.button,button,input[type="button"],input[type="reset"],input[type="submit"],.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,.woocommerce div.product form.cart .button:hover,.button:hover,button:hover,input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover { background-color:#ff6b7e}
+.typed-cursor,.typed-element,.portfolio-entry-meta a:hover,.cat-links a:hover,.woocommerce-message::before { color:#37c9df}
+.woocommerce-message,.portfolio-entry-meta a:hover,.cat-links a:hover,.portfolio-entry-meta a,.cat-links a { border-color:#37c9df}
+.portfolio-entry-meta a,.cat-links a { background-color:#37c9df}
+body, .widget-area .widget, .widget-area .widget a, .site-footer, .site-footer a { color:#4a4a4a}
+.site-title a,.site-title a:hover { color:#4c4c4c}
+.site-description { color:#b2b5bb}
+.home .header-text h2 { color:#ffffff}
+.header-text p { color:#686d73}
+.header-text h1, .header-text h2, .header-text .entry-title { color:#ffffff}
+.main-navigation a { color:#4a4a4a}
+.btn-menu { color:#4c4c4c}
+#mainnav-mobi { background-color:#202529}
+#mainnav-mobi a { color:#ffffff}
+
+</style><link rel="stylesheet" id="ignis-fonts-css" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%7CQuicksand%3A400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic&amp;subset=latin%2Clatin-ext%2Ccyrillic" type="text/css" media="all"><link rel="stylesheet" id="ignis-icons-css" href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/ui/theme/icons/css/fontello.css" type="text/css" media="all"><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/inc/js/jquery/jquery.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/inc/js/jquery/jquery-migrate.min.js"></script><script type="text/javascript">
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/inc/js/mediaelement/mediaelement-and-player.min.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/inc/js/mediaelement/mediaelement-migrate.min.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/inc\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/live-composer-page-builder/js/frontend/plugins.js"></script><!-- start Simple Custom CSS and JS --><style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+</style><!-- end Simple Custom CSS and JS --><!-- start Simple Custom CSS and JS --><style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+body.dslc-page .content {max-width: none;}</style><!-- end Simple Custom CSS and JS --><style type="text/css">.dslc-modules-section-wrapper, .dslca-add-modules-section { width : 1110px; } .dslc-modules-section:not(.dslc-full) { padding-left: 4%;  padding-right: 4%; } .dslc-modules-section { background-image:disabled;background-repeat:repeat;background-position:left top;background-attachment:scroll;background-size:auto;border-width:0px;border-style:solid;margin-left:0%;margin-right:0%;margin-bottom:0px;padding-bottom:80px;padding-top:80px;padding-left:0%;padding-right:0%; }</style><style type="text/css" id="wp-custom-css">
+			.site-footer {
+	display: none;
+}
+.ignis-hero-area {
+	background-color: #4d4d4d;
+	margin: 0;
+}		</style><style id="stylist">
+/*
+	The following CSS generated by Stylist Plugin.
+	http://stylistwp.com
+*/
+
+</style></head><body class="portfolio-template-default single single-portfolio postid-2621 sticky-header">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#contentindex.html">Skip to content</a>
+
+		<header id="masthead" class="site-header clearfix" role="banner"><div class="site-branding col-md-4 col-sm-6 col-xs-12">
+								<div class="branding-inner">
+									<p class="site-title"><a href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/index.html" rel="home">MAANAS MANOJ</a></p>
+								</div>
+			</div><!-- .site-branding -->
+			<div class="btn-menu col-md-8 col-sm-6 col-xs-12"><i class="icon-menu"></i></div>
+			<nav id="site-navigation" class="main-navigation col-md-8" role="navigation"><div id="primary-menu" class="menu"><ul><li class="page_item page-item-4"><a href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/index.html">About Me</a></li>
+<li class="page_item page-item-6"><a href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contact-us/index.html">Contact Me</a></li>
+<li class="page_item page-item-63"><a href="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/projects/index.html">Projects</a></li>
+</ul></div>
+				<div class="btn-close-menu">&times;</div>
+			</nav><!-- #site-navigation --></header><!-- #masthead --><div class="ignis-hero-area">
+				<div class="header-text clearfix">
+					<h1 class="entry-title">Barcode Recognition with Swift 3</h1>				</div>
+	</div>
+	
+	<div id="content" class="site-content clearfix">
+		<div class="container"><div class="this_page oi_page_holder">
+	<div class="oi_sinle_portfolio_holder">
+                <div class="oi_portfolio_page_holder">
+			<div id="dslc-theme-content"><div id="dslc-theme-content-inner"><p>I&rsquo;m in the process of making a grocery list app that&rsquo;s synced across my family&rsquo;s devices, and thought of adding a cool feature to scan barcodes of popular groceries. Barcodes are recognized through two steps: finding the UPC number of the barcode, and then looking that number up on a database. The barcode doesn&rsquo;t actually hold any information about the product, like a QR code, but rather only encodes the product number in an image. This number is product specific, so a product will have only one number universally. The problem with barcode recognition is the product lookup &ndash; barcode databases are INSANELY expensive, although they are well-curated and contain most products. They aren&rsquo;t meant for individual developers, but rather for big corporations. Because of this, we&rsquo;re going to be using the free&nbsp;<a href="http://searchupc.comindex.html/">SearchUPC.com</a> database. The UPC of a product, or Universal Product Code, is the number that is recognized by the barcode scanner.</p>
+<p>Using hyperoslo&rsquo;s great&nbsp;<a href="https://github.com/hyperoslo/BarcodeScannerindex.html">BarcodeScanner,</a>&nbsp;we can find the number, then query the SearchUPC database. I know there are some other free databases out there, but I found this one to have the most products. It&rsquo;s ultimately up to personal preference, because free UPC databases are open source, and not curated. Most follow the same lookup feature though, so it&rsquo;s just a matter of formatting the returned JSON differently.&nbsp;<strong>Also, the SearchUPC database produces minimal results, so if you want detailed information, use another database.&nbsp;</strong>I&rsquo;m using it just to retrieve the product image and title, so I don&rsquo;t need things like where to find the product, or price caps and stuff like that.</p>
+<p>To get started, create a Podfile and add&nbsp;<code>pod 'BarcodeScanner'</code>. We&rsquo;re also going to be using the <code>SwiftyJSON</code> and <code>Alamofire</code> pods. If you aren&rsquo;t familiar with CocoaPod installation, read my CocoaPod installation guide. It will also walk you through adding and installing pods. Close the Podfile, and install the pods.</p>
+<p>After importing the three frameworks at the top of your swift file, we&rsquo;re going to start with the scanning of the barcode. First, we need to add 3 delegates to our View Controller. Next to where it says <code>UIViewController</code>, add&nbsp;<code>BarcodeScannerCodeDelegate, BarcodeScannerErrorDelegate, BarcodeScannerDismissalDelegate</code>. Find where you want to present your barcode scanner, and put</p>
+<p><code>let controller = BarcodeScannerController()<br>
+controller.codeDelegate = self<br>
+controller.errorDelegate = self<br>
+controller.dismissalDelegate = self<br>
+present(controller, animated: true, completion: nil)</code></p>
+<p>This establishes a BarcodeScanner View Controller, sets the delegates for printing the code, errors, and dismissal, and then presents the controller. Then, we&rsquo;re going to add the necessary functions to handle scanning events. Add these to your <code>ViewController</code> file.</p>
+<p><code>func barcodeScanner(_ controller: BarcodeScannerController, didCaptureCode code: String, type: String) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print(code)<br>
+}<br>
+func barcodeScanner(_ controller: BarcodeScannerController, didReceiveError error: Error) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;print(error)<br>
+}<br>
+func barcodeScannerDidDismiss(_ controller: BarcodeScannerController) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;controller.dismiss(animated: true, completion: nil)<br>
+}</code></p>
+<p>This will enable us to print the code when the Barcode Scanner detects it, display or print errors that we can define, and dismiss the actual scanner.</p>
+<p>We&rsquo;re done with the scanning! Now onto the slightly harder stuff; the JSON retrieval. We&rsquo;ll be using Alamofire for the API call, and SwiftyJSON to parse the JSON easily. Before any of that, you&rsquo;ll need to make an <strong>API key</strong>. To do that, sign up at <a href="http://searchupc.comindex.html/">SearchUPC.com</a>. This will give you links to call in order to retrieve product data. Go back into your code, and insert this into your <code>didCaptureCode</code> method:</p>
+<p><code><br>
+if noResult {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;noResult = false<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Alamofire.request("your link").responseJSON { response in<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if let result = response.result.value {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let json = JSON(result)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if let newProd = json["0"]["productname"].string {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//This prints the product name<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(newProd as! String)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//This prints the product image URL<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print(json["0"]["imageurl"].string!)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;controller.dismiss(animated: true, completion: nil)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;controller.reset()<br>
+}<br></code></p>
+<p>I know some of this code might be cryptic, so let&rsquo;s walk through it. The variable, <code>noResult</code>, is there so that this block of code is only executed once. For some reason, the BarcodeScanner framework sometimes runs the <code>didCaptureCode</code> more than once after detecting a barcode, so this ensures we only make one API call. After verifying that we don&rsquo;t have a result yet, we set <code>noResult</code> to false, meaning that we actually do have a result. Then, we send the GET request. Replace where it says, &ldquo;<code>your link</code>&ldquo;, to the url that says <strong>SECURE URL (HTTPS)</strong>, under <strong>Method: GetProductJSON</strong>. This will include your access token. Finally, replace <code>upc_code</code> with&nbsp;<code>\(code as! String)</code>, making sure that the whole url is wrapped in quotes. The next line makes sure that there is a result, and if so, makes a variable called <code>result</code> with the JSON. We&rsquo;ll use SwiftyJSON to parse the JSON into a type of array, where we can get values by keys or indexes easily. That&rsquo;s stored in the <code>json</code> variable. Just to make sure there is an entry for a product, we check if there is a value for the key, <code>"productname"</code>. If there is, we print out the product name, and the url of its image. I won&rsquo;t be going into downloading an image from a URL, but a simple Google search should give you the answer. After we&rsquo;ve gotten our results, we dismiss the Barcode Scanner Controller and reset it.</p>
+<p>That&rsquo;s it! You&rsquo;ve successfully scanned and recognized a barcode. If it doesn&rsquo;t work sometimes, there isn&rsquo;t any error with the code &ndash; it just means that the database doesn&rsquo;t have an entry for that particular product. Also, if you don&rsquo;t get a result for a product, try twice just to make sure. Sometimes I find that I have to try twice sometimes to get product info.</p>
+</div></div><div class="siliconthemes"><div style="height:7px; line-height: 3.7em !important; overflow: hidden;">/ Free Portfolio Plugin for WordPress by <a href="https://siliconthemes.com/index.html">Silicon Themes</a>.</div></div>        </div>
+        
+		    </div>
+</div>
+		</div><!-- .container -->
+	</div><!-- #content -->
+
+
+	<footer id="colophon" class="site-footer clearfix" role="contentinfo"><div class="site-info">
+			<a href="https://wordpress.org/index.html" rel="nofollow">Proudly powered by WordPress</a>
+			<span class="sep"> | </span>
+			Theme: <a href="https://athemes.com/theme/ignisindex.html" rel="nofollow">Ignis</a> by aThemes.		</div><!-- .site-info -->
+	 
+	</footer><!-- #colophon --></div><!-- #page -->
+
+<script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/inc/js/mediaelement/wp-mediaelement.min.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/inc/js/imagesloaded.min.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/inc/js/masonry.min.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/inc/js/jquery/jquery.masonry.min.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var DSLCAjax = {"ajaxurl":"http:\/\/\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/live-composer-page-builder/js/frontend/main.js"></script><script type="text/javascript">
+/* <![CDATA[ */
+var st_sf_theme_plugin = {"theme_url":"http:\/\/\/contents\/lib\/siliconfolio\/","ajax_url":"http:\/\/\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/siliconfolio/framework/js/custom_plugin.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/siliconfolio/framework/js/jquery.waitforimages.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/siliconfolio/framework/js/isotope.pkgd.min.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/lib/siliconfolio/framework/js/imagesloaded.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/ui/theme/js/navigation.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/ui/theme/js/scripts.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/ui/theme/js/main.min.js"></script><script type="text/javascript" src="/wp-content/uploads/wp-static-html-output-1-1542315295-themaanas@gmail.com/portfolio/barcode-recognition-with-swift-3/contents/ui/theme/js/skip-link-focus-fix.js"></script></body></html><!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+
+Served from:  @ 2018-11-15 20:55:27 by W3 Total Cache
+-->
