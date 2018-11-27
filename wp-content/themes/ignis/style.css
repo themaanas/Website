@@ -78,7 +78,7 @@ a:hover {
 	line-height: 1.5;
 }
 .color-primary {
-	color: #ff6b7e;
+	color: #606060;
 }
 table {
 	width: 100%;
@@ -1306,7 +1306,7 @@ img {
 .typed-element {
 	font-style: italic;
 	position: relative;
-	color: #37c9df;
+	color: #c3c3c3;
 	font-family: "Times New Roman", Times, serif;
 }
 .typed-strings {
