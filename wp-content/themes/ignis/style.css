@@ -919,15 +919,17 @@ img {
 	margin-bottom: 90px;
 }
 .new-hero-area {
-	background-color: #4d4d4d;
+	background-color: none;
+    /* background-image: url("/airplane.JPG"); */
 	position: relative;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: top;
+	/* background-attachment: fixed; */
+	background-position: center;
 	z-index: 11;
 	height: 100vh;
     width: 100vw;
+
 }
 .ignis-hero-area {
 	background-color: #4d4d4d;
